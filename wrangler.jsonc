@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "restaurant-chatbot",
+  "compatibility_date": "2026-06-30",
+  // Custom Worker script handles POST /api/chat (proxies to Groq using a
+  // server-side secret); every other request falls through to the static
+  // Next.js export in ./out via the ASSETS binding.
+  "main": "worker/index.ts",
+  "assets": {
+    "directory": "./out",
+    "binding": "ASSETS",
+    "not_found_handling": "404-page"
+  }
+}
