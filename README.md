@@ -4,6 +4,8 @@ A restaurant demo site with a **live AI concierge** powered by [Groq](https://gr
 
 Part of the [GulfAutomation](https://agency-website.pranaykuwait.workers.dev) portfolio — demonstrates the AI chatbot service the agency builds for restaurants and service businesses.
 
+**Live:** https://restaurant-chatbot.pranaykuwait.workers.dev
+
 ## Architecture
 
 Unlike the other two portfolio demos (which are 100% static), this site needs a real backend to call Groq without exposing the API key. It's still one Cloudflare deployment, just with two parts:
