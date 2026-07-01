@@ -13,3 +13,4 @@ next-env.d.ts
 # (.dev.vars.example is intentionally NOT excluded — it's a safe template.)
 .dev.vars
 .dev.vars.local
+chatbot.jpeg
