@@ -4,7 +4,7 @@ A restaurant demo site with a **live AI concierge** powered by [Groq](https://gr
 
 Part of the [GulfAutomation](https://agency-website.pranaykuwait.workers.dev) portfolio — demonstrates the AI chatbot service the agency builds for restaurants and service businesses.
 
-**Live:** https://restaurant-chatbot.pranaykuwait.workers.dev
+**Live:** https://restaurant-chatbot.pranaykuwait.workers.dev — auto-deploys on push to `main` via Cloudflare's Git integration.
 
 ## Architecture
 
